@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Knight</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+      <div align="center">
+ <h1>Hello, welcome!</h1>
+ <h2>please enter your mumber</h2>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript">
+       function cal(){
+           var nums = document.getElementsByName("num");
+           var sz = document.getElementsByName("js");
+           var result = document.getElementsByName("rs");
+           var n1 = parseFloat(nums[0].value);
+           var n2 = parseFloat(nums[1].value);
+           /*parseFloat()
+        */
+            switch(sz[0].value){
+            case "add" : 
+            result[0].value = n1 + n2 ;
+            break
+              }
+          }
+      </script>
+</head>
+<body>
+    <div align="center">
+        <input type="text" name="num" value="" onkeyup="value=value.replace(/^\D*(\d*(?:\.\d{0,2})?).*$/g, '$1')" />
+        <select name="js" size="1">
+            <option value="add">+</option>
+        </select>
+   <input type="text" name="num" value=""onkeyup="value=value.replace(/^\D*(\d*(?:\.\d{0,2})?).*$/g, '$1')" />
+  =
+   <input type="text" name="rs" value=""/><br>
+   <button id="btn"onclick="cal()">result</button>
+
+ </Script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
